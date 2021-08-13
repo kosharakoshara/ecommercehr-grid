@@ -103,3 +103,18 @@ table tr:nth-child(even) td{
             font-size: 16px;
 }
 
+.grid-container {
+  padding: 0 15%;
+}
+
+.grid-container .grid-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-container .grid-row .grid-col{
+  width: 20%;
+  border:#555 solid 1px;
+  padding: 10px
+}
